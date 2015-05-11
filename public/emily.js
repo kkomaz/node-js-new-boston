@@ -1,3 +1,4 @@
-/**
- * Created by kkomaz on 5/11/15.
- */
+var movies = require('./movies');
+movies.favMovie =  "The Notebook";
+
+console.log("Emily's favorite is: " + movies.favMovie);

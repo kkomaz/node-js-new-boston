@@ -1,5 +1,3 @@
-var movies = require('./movies');
+require ('./Emily');
+require ('./Bucky');
 
-movies.printAvatar();
-console.log(movies.favMovie);
-movies.printChappie();
